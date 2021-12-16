@@ -1,0 +1,14 @@
+D:\C#\LAd6.1\LAd6.1\bin\Debug\netcoreapp3.1\LAd6.1.exe
+D:\C#\LAd6.1\LAd6.1\bin\Debug\netcoreapp3.1\LAd6.1.deps.json
+D:\C#\LAd6.1\LAd6.1\bin\Debug\netcoreapp3.1\LAd6.1.runtimeconfig.json
+D:\C#\LAd6.1\LAd6.1\bin\Debug\netcoreapp3.1\LAd6.1.runtimeconfig.dev.json
+D:\C#\LAd6.1\LAd6.1\bin\Debug\netcoreapp3.1\LAd6.1.dll
+D:\C#\LAd6.1\LAd6.1\bin\Debug\netcoreapp3.1\LAd6.1.pdb
+D:\C#\LAd6.1\LAd6.1\obj\Debug\netcoreapp3.1\LAd6.1.csproj.AssemblyReference.cache
+D:\C#\LAd6.1\LAd6.1\obj\Debug\netcoreapp3.1\LAd6.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\LAd6.1\LAd6.1\obj\Debug\netcoreapp3.1\LAd6.1.AssemblyInfoInputs.cache
+D:\C#\LAd6.1\LAd6.1\obj\Debug\netcoreapp3.1\LAd6.1.AssemblyInfo.cs
+D:\C#\LAd6.1\LAd6.1\obj\Debug\netcoreapp3.1\LAd6.1.csproj.CoreCompileInputs.cache
+D:\C#\LAd6.1\LAd6.1\obj\Debug\netcoreapp3.1\LAd6.1.dll
+D:\C#\LAd6.1\LAd6.1\obj\Debug\netcoreapp3.1\LAd6.1.pdb
+D:\C#\LAd6.1\LAd6.1\obj\Debug\netcoreapp3.1\LAd6.1.genruntimeconfig.cache
