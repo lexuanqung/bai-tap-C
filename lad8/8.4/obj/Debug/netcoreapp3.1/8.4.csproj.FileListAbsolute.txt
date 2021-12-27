@@ -1,0 +1,14 @@
+D:\C#\lad8\8.4\bin\Debug\netcoreapp3.1\8.4.exe
+D:\C#\lad8\8.4\bin\Debug\netcoreapp3.1\8.4.deps.json
+D:\C#\lad8\8.4\bin\Debug\netcoreapp3.1\8.4.runtimeconfig.json
+D:\C#\lad8\8.4\bin\Debug\netcoreapp3.1\8.4.runtimeconfig.dev.json
+D:\C#\lad8\8.4\bin\Debug\netcoreapp3.1\8.4.dll
+D:\C#\lad8\8.4\bin\Debug\netcoreapp3.1\8.4.pdb
+D:\C#\lad8\8.4\obj\Debug\netcoreapp3.1\8.4.csproj.AssemblyReference.cache
+D:\C#\lad8\8.4\obj\Debug\netcoreapp3.1\8.4.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\lad8\8.4\obj\Debug\netcoreapp3.1\8.4.AssemblyInfoInputs.cache
+D:\C#\lad8\8.4\obj\Debug\netcoreapp3.1\8.4.AssemblyInfo.cs
+D:\C#\lad8\8.4\obj\Debug\netcoreapp3.1\8.4.csproj.CoreCompileInputs.cache
+D:\C#\lad8\8.4\obj\Debug\netcoreapp3.1\8.4.dll
+D:\C#\lad8\8.4\obj\Debug\netcoreapp3.1\8.4.pdb
+D:\C#\lad8\8.4\obj\Debug\netcoreapp3.1\8.4.genruntimeconfig.cache

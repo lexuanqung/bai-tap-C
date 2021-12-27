@@ -1,0 +1,14 @@
+D:\C#\lad9\9.4\bin\Debug\netcoreapp3.1\9.4.exe
+D:\C#\lad9\9.4\bin\Debug\netcoreapp3.1\9.4.deps.json
+D:\C#\lad9\9.4\bin\Debug\netcoreapp3.1\9.4.runtimeconfig.json
+D:\C#\lad9\9.4\bin\Debug\netcoreapp3.1\9.4.runtimeconfig.dev.json
+D:\C#\lad9\9.4\bin\Debug\netcoreapp3.1\9.4.dll
+D:\C#\lad9\9.4\bin\Debug\netcoreapp3.1\9.4.pdb
+D:\C#\lad9\9.4\obj\Debug\netcoreapp3.1\9.4.csproj.AssemblyReference.cache
+D:\C#\lad9\9.4\obj\Debug\netcoreapp3.1\9.4.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\lad9\9.4\obj\Debug\netcoreapp3.1\9.4.AssemblyInfoInputs.cache
+D:\C#\lad9\9.4\obj\Debug\netcoreapp3.1\9.4.AssemblyInfo.cs
+D:\C#\lad9\9.4\obj\Debug\netcoreapp3.1\9.4.csproj.CoreCompileInputs.cache
+D:\C#\lad9\9.4\obj\Debug\netcoreapp3.1\9.4.dll
+D:\C#\lad9\9.4\obj\Debug\netcoreapp3.1\9.4.pdb
+D:\C#\lad9\9.4\obj\Debug\netcoreapp3.1\9.4.genruntimeconfig.cache

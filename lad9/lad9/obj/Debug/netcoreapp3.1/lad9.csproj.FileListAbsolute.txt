@@ -1,0 +1,14 @@
+D:\C#\lad9\lad9\bin\Debug\netcoreapp3.1\lad9.exe
+D:\C#\lad9\lad9\bin\Debug\netcoreapp3.1\lad9.deps.json
+D:\C#\lad9\lad9\bin\Debug\netcoreapp3.1\lad9.runtimeconfig.json
+D:\C#\lad9\lad9\bin\Debug\netcoreapp3.1\lad9.runtimeconfig.dev.json
+D:\C#\lad9\lad9\bin\Debug\netcoreapp3.1\lad9.dll
+D:\C#\lad9\lad9\bin\Debug\netcoreapp3.1\lad9.pdb
+D:\C#\lad9\lad9\obj\Debug\netcoreapp3.1\lad9.csproj.AssemblyReference.cache
+D:\C#\lad9\lad9\obj\Debug\netcoreapp3.1\lad9.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\lad9\lad9\obj\Debug\netcoreapp3.1\lad9.AssemblyInfoInputs.cache
+D:\C#\lad9\lad9\obj\Debug\netcoreapp3.1\lad9.AssemblyInfo.cs
+D:\C#\lad9\lad9\obj\Debug\netcoreapp3.1\lad9.csproj.CoreCompileInputs.cache
+D:\C#\lad9\lad9\obj\Debug\netcoreapp3.1\lad9.dll
+D:\C#\lad9\lad9\obj\Debug\netcoreapp3.1\lad9.pdb
+D:\C#\lad9\lad9\obj\Debug\netcoreapp3.1\lad9.genruntimeconfig.cache
