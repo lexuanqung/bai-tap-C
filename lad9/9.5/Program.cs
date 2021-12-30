@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Text;
 
 namespace _9._5
 {
@@ -8,7 +12,9 @@ namespace _9._5
         {
             ARR a = new ARR();
             int n;
-            Console.WriteLine(
+            do
+            {
+                Console.WriteLine(
                 "Chuong trinh quan li san pham cua shop ABC.\n" +
                 "===========================================\n" +
                 "1-khoi tao danh sach.\n" +
@@ -19,16 +25,16 @@ namespace _9._5
                 "6-tim san pham theo gia tien.\n" +
                 "7-tim san pham theo khoang gia tien.\n" +
                 "8-sap xep danh sach theo giam dan.");
-            Console.Write("Moi chon: ");
-            n = Convert.ToInt32(Console.ReadLine());
-            do
-            {
+            
+            
+                Console.Write("Moi chon: ");
+                n = Convert.ToInt32(Console.ReadLine());
                 switch (n)
                 {
                     case 2:
-                        PRODUCT c = new PRODUCT();
+                        PRODUCT c = new PRODUCT();                        
+                        c.input();
                         a.themsanpham(c);
-                        c.output();
                         break;
                     case 3:
                         a.xoasanpham();
@@ -44,6 +50,11 @@ namespace _9._5
                         break;
                     case 7:
                         a.timsanphantheokhoanggia();
+                        break;
+                    case 8:
+                        a.sapxeptheogiavaten();
+                        a.duyetdanhsach();
+                        break;
                     default:
                         Console.WriteLine("Moi ban chon tu 1 - 8");
                         break;

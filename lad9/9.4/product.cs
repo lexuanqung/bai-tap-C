@@ -20,7 +20,9 @@ namespace _9._4
             
             for (int i = 0; i <list.Count; i++)
             {
-                Console.WriteLine(i + " " + list[i]);
+                list[i].printitle();
+                list[i].ouput(i);
+                
             }
         //tim sinh vien theo tên
         }public void timthongtinsinhvien()
@@ -41,14 +43,14 @@ namespace _9._4
             }
 
         }// sua điểm chop hoc sinh
-        public void suadiemchosinhvien(strudent strudent)
+        public void suadiemchosinhvien()
         {
             if (list.Count == 0) Console.WriteLine("Danh sách chưa có sinh viên nào!");
             else
             {
                 Console.Write("Nhập vào mã sinh viên cần sửa điểm: ");
                 string masinhvien = Console.ReadLine();
-                strudent.printline();
+                
                 bool find = false;
                 for (int i = 0; i < list.Count; i++)
                 {
@@ -57,7 +59,7 @@ namespace _9._4
                         Console.WriteLine("Sinh viên: " + list[i].get_name());//xuất ra tên sinh viên
                         Console.WriteLine("Điểm hiện tại: " + list[i].get_mark());//xuất ra điểm hiện tại
                         Console.Write("Nhập vào điểm cần sửa: ");
-                        strudent.printline();
+                        
                         double diemmoi = Convert.ToDouble(Console.ReadLine());
                         list[i].set_mark(diemmoi);
                         Console.WriteLine("Đã sửa điểm cho sinh viên!");
@@ -68,41 +70,26 @@ namespace _9._4
                 if (!find) Console.WriteLine("Không tìm thấy sinh viên nào có mã số: " + masinhvien);
             }       
         }
-
-        internal void timtheomasosinhvien()
+        public void nhanhocbong()
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < list.Count; i++)
+            {
+                if ( list[i].get_mark() > 8) { Console.WriteLine("Hoc sinh ten {0} duoc nhan hoc bong",list[i].get_name()); }
+                else Console.WriteLine("Hoc sinh ten {0} khong nhan hoc bong", list[i].get_name()); 
+            }
+            
         }
 
-        internal void nhanhocbong()
-        {
-            throw new NotImplementedException();
-        }
 
-        internal void suadiemchosinhvien()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void timtheotensinhvien()
-        {
-            throw new NotImplementedException();
-        }
-
-        // hoc sinh dc nhan hoc bong
-        public Boolean nhanhocbong(strudent strudent)
-        {
-            if (strudent.get_mark() > '8') { Console.WriteLine("Hoc sinh duoc nhan hoc bong"); return true; }
-            else Console.WriteLine("Hoc sinh khong nhan hoc bong"); return false;
         // tìm sinh vien theo tên sinh viên
-        }public void timtheotensinhvien(strudent strudent)
+        public void timtheotensinhvien()
         {
             if (list.Count == 0) { Console.WriteLine("Danh sach chua co sinh vien nao!"); }
             else
             {
                 Console.Write("Nhap ten hoc sinh ban muon  tim");
                 string ten = Console.ReadLine();
-                strudent.printline();
+                
                 bool tim = false;
                 for (int i = 0; i < list.Count; i++)
                 {
@@ -115,14 +102,14 @@ namespace _9._4
                 if (tim!) Console.WriteLine("khong tim thay hoc sinh ten {0} '",ten );
             }
         // tìm sinh vien theo mã số
-        }public void timtheomasosinhvien(strudent strudent)
+        }public void timtheomasosinhvien()
         {
             if (list.Count == 0) { Console.WriteLine("Danh sach chua co hoc vien nao!"); }
             else
             {
                 Console.Write("Nhap ma hoc vien ban muon tim: ");
                 String ma = Console.ReadLine();
-                strudent.printline();
+                
                 bool tim = false;
                 for (int i = 0; i < list.Count; i++)
                 {
@@ -131,11 +118,12 @@ namespace _9._4
                         Console.WriteLine("sinh vien: " + list[i].get_name());// xuat ten sinh vien
                         Console.WriteLine("Diem sinh vien: " + list[i].get_mark());
                         tim = true;
-                        strudent.printline();
+                        
                     }
                 }
                 if (!tim) { Console.WriteLine("Ma sinh vien {0} khong co trong danh sach"); }
             }
+        //sắp xếp giá ban giảm dần
         }public void danhsachgiamdantheoMark()
         {
             for (int i = 0; i < list.Count; i++)
@@ -151,7 +139,44 @@ namespace _9._4
                 strudent smallernumber = list[index];
                 list[index] = list[i];
                 list[i] = smallernumber;
-            } 
+            }
+            for (int i = 0; i < list.Count; i++)
+            {
+                Console.WriteLine("{0}", list[i]);
+            }Console.ReadLine();
+        }// sắp xếp theo giá bán , nếu bằng nhau thì xét tên
+        public void sapxep()
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                int index = i;
+                for (int j = i + 1; j < list.Count; j++)
+                {
+                    if (list[i].get_mark() > list[index].get_mark())
+                    {
+                        index = j;
+                    }
+                    strudent minmax = list[index];
+                    list[index] = list[i];
+                    list[i] = minmax;
+                }
+                    
+                
+            }
+        }// sắp xếp theo giá bán , nếu bằng nhau thì xét tên
+        public void sapxeptheodiem()
+        {
+            list.Sort(new SortByMark());
+            System.Console.WriteLine("Danh sach da duoc sap xep theo diem.");
         }
+
+        public void sapxeptheodiemvaten()
+        {
+            list.Sort(new SortByMarkandName());
+            System.Console.WriteLine("Danh sach da duoc sap xep theo diem va ten.");
+        }
+
     }
+    
+    
 }

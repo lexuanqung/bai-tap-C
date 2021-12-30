@@ -6,11 +6,13 @@ namespace _9._5
 {
     class PRODUCT
     {
+        
         string tensanpham;
         string motasanpham;
         double giaban;
         public void input()
         {
+
             Console.Write("Nhap ten san pham: ");
             tensanpham = Console.ReadLine();
             Console.Write("Mo ta san pham: ");
@@ -34,6 +36,13 @@ namespace _9._5
         }public void output()
         {
             Console.WriteLine("| {0,-5} | {1,-12} | {2,-15} |", tensanpham, motasanpham, giaban);
+        }
+    }class Sortbymarkandname : IComparer <PRODUCT>
+    {
+        public int Compare(PRODUCT x, PRODUCT y)
+        {
+            if(x.get_giaban() != y.get_giaban()) { return y.get_giaban().CompareTo(x.get_giaban()); }
+            else { return x.get_ten().CompareTo(y.get_ten()); }
         }
     }
 }
